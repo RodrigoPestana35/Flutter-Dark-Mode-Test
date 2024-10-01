@@ -12,12 +12,12 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Box(
           child: Button(
-            color: Colors.deepPurple[200],
+            color: Theme.of(context).colorScheme.primary,
             onTap: () {
               print("Tapped!");
             },
           ),
-          color: Colors.deepPurple[300],
+          color: Theme.of(context).colorScheme.secondary,
         ),
       ),
     );
