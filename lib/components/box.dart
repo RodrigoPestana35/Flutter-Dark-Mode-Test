@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class Box extends StatelessWidget {
   final Widget? child;
-  final Color color;
+  final Color? color;
   const Box({
     super.key,
-    this.child,
+    required this.child,
     required this.color,
   });
 
